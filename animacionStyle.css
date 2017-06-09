@@ -1,0 +1,182 @@
+
+*{
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	background-image: url("images/AnimacionesFont.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.nombre{
+
+	padding: 50px 0px 10px 0px;
+    text-align: left;
+    font-size: 40px;
+	color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.37);
+	transform: translate(6%,0%);
+	
+}
+.tags{
+	padding: 50px 0px 10px 0px;
+    margin: 200px auto; 
+    text-align: center;
+    font-size: 18px;
+	color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.37);
+    margin: 0;
+	line-height: 200%;
+}
+
+#pers{
+	width: 50%;	
+	position: fixed;
+	top: 50%;
+	left:50%;
+	transform: translate(20%,30%);
+	
+	
+}
+
+
+#buttons{
+	
+	width: 10%;	
+	position: absolute;
+	top: 2%;
+	left:85%;
+	transform: translate(0%,0%);
+	z-index: 10;
+}
+
+.btn {
+  font-weight: bold;
+  display:block;
+  width: 50%;
+  text-align:center;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: #94c9f7;
+  padding: 10px 0px 10px 0px;
+  text-decoration: none;
+	margin: 10px auto;
+}
+
+#video {
+
+	display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+	position: absolute;
+	top: 20%;
+	left:6%;
+	transform: translate(0%,0%);
+}
+
+#video2 {
+
+	display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+	position: absolute;
+	top: 60%;
+	left:6%;
+	transform: translate(0%,0%);
+}
+
+#video3 {
+
+	display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+	position: absolute;
+	top: 100%;
+	left:6%;
+	transform: translate(0%,0%);
+}
+
+#video4 {
+
+	display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+	position: absolute;
+	top: 140%;
+	left:6%;
+	transform: translate(0%,0%);
+}
+
+#video5 {
+
+	display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+	position: absolute;
+	top: 180%;
+	left:6%;
+	transform: translate(0%,0%);
+}
+
+.animation{
+	
+  display:inline;
+  padding: 10px 0px 10px 0px;
+
+
+}
+
+.descripcion{
+
+	padding: 0px 20px 10px 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 0px;
+    text-align: left;
+    font-size: 18px;
+	color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.37);
+	line-height: 200%;
+
+
+	
+}
+
+.tipo1{
+	background: #78f096;
+	margin: 40px auto;
+}
+
+.btn:hover {
+  background: #aafab4;
+  text-decoration: none;
+}
+
+
+
+.btn2:hover {
+  background: #d6edff;
+  text-decoration: none;
+}
+
+
+
+
+
+

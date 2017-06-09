@@ -1,0 +1,102 @@
+
+*{
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	background-image: url("images/Land.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.nombre{
+
+	padding: 50px 0px 10px 0px;
+    margin: 100px auto; 
+    text-align: center;
+    font-size: 40px;
+	color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.37);
+    margin: 0;
+	
+}
+.tags{
+	padding: 50px 0px 10px 0px;
+    margin: 200px auto; 
+    text-align: center;
+    font-size: 18px;
+	color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.37);
+    margin: 0;
+	line-height: 200%;
+}
+
+
+
+#pers{
+	width: 50%;	
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(20%,30%);
+	
+	
+}
+
+
+#buttons{
+	
+	width: 50%;	
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+.btn {
+  font-weight: bold;
+  display:block;
+  width: 50%;
+  text-align:center;
+  font-family: Arial;
+  color: #000000;
+  font-size: 30px;
+  background: #94c9f7;
+  padding: 10px 0px 10px 0px;
+  text-decoration: none;
+	margin: 10px auto;
+}
+
+.tipo1{
+	background: #78f096;
+	margin: 40px auto;
+}
+
+.btn:hover {
+  background: #aafab4;
+  text-decoration: none;
+}
+
+
+
+.btn2:hover {
+  background: #d6edff;
+  text-decoration: none;
+}
+
+
+
+
+
+
